@@ -1,0 +1,90 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  color: #101828;
+  background-color: #f5f7fb;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+.app-shell {
+  color: #101828;
+}
+
+.app-header {
+  background: radial-gradient(circle at 10% 20%, #1f8ef1 0%, #0b2240 70%);
+}
+
+.nav-pill {
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.nav-pill:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.app-footer {
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.card-glass {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.chat-bubble {
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
+}
+
+.chip {
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  padding: 0.35rem 0.85rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #475467;
+  background-color: #fff;
+}
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 15, 33, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050;
+  backdrop-filter: blur(2px);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin: 0 0 0.25rem;
+}
+
+.markdown-body p {
+  margin-bottom: 0.4rem;
+}
+
+.markdown-body ul {
+  padding-left: 1.2rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
+.markdown-body code {
+  background: rgba(15, 23, 42, 0.06);
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.35rem;
+}

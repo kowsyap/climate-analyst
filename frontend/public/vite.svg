@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Earth globe">
+  <defs>
+    <linearGradient id="ocean" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#3aa7ff" />
+      <stop offset="100%" stop-color="#1c6dd0" />
+    </linearGradient>
+    <linearGradient id="land" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#9bdc74" />
+      <stop offset="100%" stop-color="#5aa35a" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#ocean)" />
+  <path
+    fill="url(#land)"
+    d="M40 10c-4 2-6 6-4 9 2 4-1 9-5 10-5 1-9-4-12-1-2 3 2 5 1 9-1 3-4 3-5 6-1 3 1 6 4 6 6 1 12-2 15-1 3 2 7 5 11 4 3-1 4-4 4-6-1-5-7-6-7-10 0-4 5-5 6-8 1-3-1-6-3-8-3-2-4-5-5-8-1-2-1-3-0-5 1-1 1-2 0-3z"
+  />
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#0f4c81" stroke-width="2" />
+</svg>
