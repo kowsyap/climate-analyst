@@ -29,7 +29,7 @@ Open **Settings** in the UI and paste:
 
 - **NewsAPI Key** – enables live headlines
 - **Azure OpenAI** – endpoint (e.g., `https://your-resource.openai.azure.com`), chat deployment, embedding deployment, API key
-- **Gemini** – API key and model (e.g., `gemini-1.5-flash`)
+- **Gemini** – API key and model (e.g., `gemini-2.0-flash`)
 
 All values are stored in `localStorage` only.
 
