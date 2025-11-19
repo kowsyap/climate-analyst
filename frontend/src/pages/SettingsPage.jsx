@@ -20,7 +20,7 @@ function SettingsPage() {
   const [azureDeployment, updateAzureDeployment] = useState(() => getAzureDeployment())
   const [azureEmbeddingDeployment, updateAzureEmbeddingDeployment] = useState(() => getAzureEmbeddingDeployment())
   const [geminiKey, updateGeminiKey] = useState(() => getGeminiKey())
-  const [geminiModel, updateGeminiModel] = useState(() => getGeminiModel() || 'gemini-1.5-flash')
+  const [geminiModel, updateGeminiModel] = useState(() => getGeminiModel() || 'gemini-2.0-flash')
   const [status, setStatus] = useState(null)
 
   useEffect(() => {
@@ -152,7 +152,7 @@ function SettingsPage() {
               id="geminiModel"
               type="text"
               className="form-control"
-              placeholder="gemini-1.5-flash"
+              placeholder="gemini-2.0-flash"
               value={geminiModel}
               onChange={(e) => updateGeminiModel(e.target.value)}
             />
