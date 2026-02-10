@@ -100,3 +100,8 @@ The repo includes an Azure Function under `azure/chroma-function` that exposes a
 - Point the UI via `VITE_CHROMA_INSERT_URL` / `VITE_CHROMA_SEARCH_URL` to your function URLs.
 
 If you don't need remote embedding storage/search, you can skip deploying the function; the app will still work locally without Chroma persistence.
+
+## Contributors
+
+- [Kowsyap Pranay](https://github.com/kowsyap)
+- [Ary Chndrawanshi](https://github.com/AryaChandrawanshi)
