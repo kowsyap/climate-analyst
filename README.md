@@ -104,4 +104,4 @@ If you don't need remote embedding storage/search, you can skip deploying the fu
 ## Contributors
 
 - [Kowsyap Pranay](https://github.com/kowsyap)
-- [Ary Chndrawanshi](https://github.com/AryaChandrawanshi)
+- [Arya Chandrawanshi](https://github.com/AryaChandrawanshi)
